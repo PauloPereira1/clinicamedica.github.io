@@ -1,0 +1,92 @@
+/* https://www.devmedia.com.br/arquivos/projeto_guiado/front-end/segunda_pagina_clinica_medica/2_etapa/home-layout-desktop.jpg */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.links-topo {
+    display: flex;
+    background-color: rgb(0, 202, 209);
+    text-align: center;
+}
+
+.links-topo a {
+    color: white;
+    font-weight: 300;
+    margin: auto; /*  Centralizando o conteudo do topo  */
+}
+
+.topo {
+    max-width: 1024px;
+    margin: auto;
+
+    word-spacing: 80px;
+    font-size: 22px;
+}
+
+.topo a {
+    text-decoration: none;  
+}
+
+.topo a:hover {
+    color: #888888;
+    text-decoration: underline;
+}
+
+.titulo-pagina {
+    background-image: url("/assets/recepcao.png");
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    max-width: 1024px;
+    position: relative;
+    top: 50%;
+}
+
+.titulo h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+
+    margin-top: -4rem;
+   
+    width: 30%;
+
+    color: white;
+}
+
+.titulo h1::selection {
+    color: red;
+    background-color: rgb(0, 202, 209)
+}
+
+#sobre {
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 50px;    
+    text-align: center;
+    color: #888888;
+}
+
+#sobre .sobre-clinica {
+    margin: auto;
+    width: 600px;
+}
+
+#sobre .sobre-clinica h1 {
+    color: #6b6b6b;
+}
+
+/* .comodidade-clinica ul {
+    display: inline-block;
+} */
+
